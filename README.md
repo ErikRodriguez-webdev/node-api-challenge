@@ -48,7 +48,7 @@ A: Middleware is used as a chokepoint to check incoming request and can make sur
 
 - [ ] Describe a Resource?
 
-A: Resources are functions that help move data around.
+A: A resource is the data.
 
 - [ ] What can the API return to help clients know if a request was successful?
 
