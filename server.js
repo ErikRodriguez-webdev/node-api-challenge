@@ -1,4 +1,6 @@
 const express = require("express");
+const projectRouter = require("./data/routers/projectRouter");
+const actionRouter = require("./data/routers/actionRouter");
 const helmet = require("helmet");
 const cors = require("cors");
 
@@ -12,5 +14,8 @@ server.get("/", (req, res) => {
 });
 
 //Routers
+server.use("/api/projects", projectRouter);
+
+server.use("/api/actions", actionRouter);
 
 module.exports = server;
