@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+A: Two express parts learned this week were Express.route and Express.json. Express.route is used when making crud operations elsewhere to keep the server.js file cleaner and the first parts of the link will trigger it to send to routes. Express.json is extremely crucial to be able to send any json objects out of node.
+
 - [ ] Describe Middleware?
+
+A: Middleware is used as a chokepoint to check incoming request and can make sure required fields are present and valid.
 
 - [ ] Describe a Resource?
 
+A: Resources are functions that help move data around.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+A: Server can respond with a status of 200 to the request made by client to know request was successful.
+
 - [ ] How can we partition our application into sub-applications?
+
+A: We break our application in to routes and bring in to server.js with module.exports.
 
 ## Minimum Viable Product
 
